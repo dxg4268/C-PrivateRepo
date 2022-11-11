@@ -1,2 +1,3 @@
 
-g++ $1 -o test1 && ./test1
+g++ $1 -o app && ./app
+rm -rf ./app
